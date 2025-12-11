@@ -5,6 +5,10 @@ hidden = [".pythonlibs"]
 
 [nix]
 channel = "stable-23_05"
+packages = ["geckodriver"]
 
 [env]
 LANG = "en_US.UTF-8"
+
+[agent]
+expertMode = true
